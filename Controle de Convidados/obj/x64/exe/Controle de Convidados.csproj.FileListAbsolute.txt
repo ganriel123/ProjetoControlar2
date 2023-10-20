@@ -1,0 +1,12 @@
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\bin\x64\exe\Controle de Convidados.exe.config
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\bin\x64\exe\Controle de Convidados.exe
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\bin\x64\exe\Controle de Convidados.pdb
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle de Convidados.csproj.AssemblyReference.cache
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle_de_Convidados.frmLogin.resources
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle_de_Convidados.FrmCadastroConvidados.resources
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle_de_Convidados.frmMesas.resources
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle_de_Convidados.Properties.Resources.resources
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle de Convidados.csproj.GenerateResource.cache
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle de Convidados.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle de Convidados.exe
+C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\x64\exe\Controle de Convidados.pdb
