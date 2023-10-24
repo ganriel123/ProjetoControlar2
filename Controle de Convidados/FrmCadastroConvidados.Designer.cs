@@ -51,12 +51,14 @@ namespace Controle_de_Convidados
             this.maskCep = new System.Windows.Forms.MaskedTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblVoltar = new System.Windows.Forms.Label();
+            this.Status = new System.Windows.Forms.Label();
+            this.lblModo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(89, 81);
+            this.txtCodigo.Location = new System.Drawing.Point(77, 81);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 1;
@@ -64,7 +66,7 @@ namespace Controle_de_Convidados
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(41, 81);
+            this.lblCodigo.Location = new System.Drawing.Point(29, 81);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(39, 13);
             this.lblCodigo.TabIndex = 1;
@@ -80,7 +82,7 @@ namespace Controle_de_Convidados
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(98, 227);
+            this.txtEndereco.Location = new System.Drawing.Point(74, 223);
             this.txtEndereco.MaxLength = 30;
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(100, 20);
@@ -116,7 +118,7 @@ namespace Controle_de_Convidados
             // lblEndereço
             // 
             this.lblEndereço.AutoSize = true;
-            this.lblEndereço.Location = new System.Drawing.Point(39, 230);
+            this.lblEndereço.Location = new System.Drawing.Point(15, 226);
             this.lblEndereço.Name = "lblEndereço";
             this.lblEndereço.Size = new System.Drawing.Size(53, 13);
             this.lblEndereço.TabIndex = 21;
@@ -241,11 +243,32 @@ namespace Controle_de_Convidados
             this.lblVoltar.Text = "Voltar";
             this.lblVoltar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // Status
+            // 
+            this.Status.AutoSize = true;
+            this.Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Status.Location = new System.Drawing.Point(454, 33);
+            this.Status.Name = "Status";
+            this.Status.Size = new System.Drawing.Size(79, 25);
+            this.Status.TabIndex = 35;
+            this.Status.Text = "&Status:";
+            // 
+            // lblModo
+            // 
+            this.lblModo.AutoSize = true;
+            this.lblModo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModo.Location = new System.Drawing.Point(539, 33);
+            this.lblModo.Name = "lblModo";
+            this.lblModo.Size = new System.Drawing.Size(0, 20);
+            this.lblModo.TabIndex = 36;
+            // 
             // FrmCadastroConvidados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 419);
+            this.Controls.Add(this.lblModo);
+            this.Controls.Add(this.Status);
             this.Controls.Add(this.lblVoltar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.maskCep);
@@ -299,5 +322,7 @@ namespace Controle_de_Convidados
         private System.Windows.Forms.MaskedTextBox maskCep;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblVoltar;
+        private System.Windows.Forms.Label Status;
+        private System.Windows.Forms.Label lblModo;
     }
 }

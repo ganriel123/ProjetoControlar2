@@ -42,3 +42,47 @@ C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados
 C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\gabriel.alarian\Documents\Controle de Convidados\Controle de Convidados\obj\Debug\Controle de Convidados.csproj.CopyComplete
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Controle de Convidados.exe.config
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Controle de Convidados.exe
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Controle de Convidados.pdb
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\BouncyCastle.Crypto.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Google.Protobuf.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Compression.LZ4.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Hash.xxHash.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\MySql.Data.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Buffers.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.IO.Pipelines.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Memory.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Numerics.Vectors.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\ZstdSharp.dll
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\BouncyCastle.Crypto.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Google.Protobuf.pdb
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Google.Protobuf.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Compression.LZ4.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\K4os.Hash.xxHash.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\MySql.Data.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Buffers.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.IO.Pipelines.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Memory.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Numerics.Vectors.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\ProjetoControlar2-main\Controle de Convidados\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.csproj.AssemblyReference.cache
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle_de_Convidados.frmLogin.resources
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle_de_Convidados.FrmCadastroConvidados.resources
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle_de_Convidados.frmMesas.resources
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle_de_Convidados.Properties.Resources.resources
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.csproj.GenerateResource.cache
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.csproj.CoreCompileInputs.cache
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.csproj.CopyComplete
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.exe
+C:\ProjetoControlar2-main\Controle de Convidados\obj\Debug\Controle de Convidados.pdb

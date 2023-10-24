@@ -70,18 +70,23 @@ namespace Controle_de_Convidados
         }
         public void InsertConvidado(string nome, string cpf, string endereco, string bairro, string cep, string email)
         {
-            string query = "INSERT INTO tbConvidados (nome, cpf, endereco, bairro, Cep, E-mail) " +
-                           "VALUES (@Nome, @Cpf, @Endereco, @Bairro, @Cep, @Email)";
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
 
-            MySqlCommand cmd = new MySqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@Nome", nome);
-            cmd.Parameters.AddWithValue("@Cpf", cpf);
-            cmd.Parameters.AddWithValue("@Endereco", endereco);
-            cmd.Parameters.AddWithValue("@Bairro", bairro);
-            cmd.Parameters.AddWithValue("@Cep", cep);
-            cmd.Parameters.AddWithValue("@Email", email);
+                string query = "INSERT INTO tbConvidados (nome, cpf, endereco, bairro, cep, email) " +
+                               "VALUES (@Nome, @Cpf, @Endereco, @Bairro, @Cep, @Email)";
 
-            cmd.ExecuteNonQuery();
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Nome", nome);
+                cmd.Parameters.AddWithValue("@Cpf", cpf);
+                cmd.Parameters.AddWithValue("@Endereco", endereco);
+                cmd.Parameters.AddWithValue("@Bairro", bairro);
+                cmd.Parameters.AddWithValue("@Cep", cep);
+                cmd.Parameters.AddWithValue("@Email", email);
+
+                cmd.ExecuteNonQuery();
+            } // A conexão é fechada automaticamente quando o bloco "using" é encerrado
         }
         public void UpdateConvidado(int codConvidado, string nome, string cpf, string endereco, string bairro, string cep, string email)
         {

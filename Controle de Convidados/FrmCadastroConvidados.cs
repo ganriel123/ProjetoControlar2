@@ -75,24 +75,30 @@ namespace Controle_de_Convidados
 
             
         }
+       
 
+        public void InsertConvidado(string nome, string cpf, string endereco, string bairro, string cep, string email)
+        {
+            string query = "INSERT INTO tbConvidados (nome, cpf, endereco, bairro, Cep, E-mail) " +
+                           "VALUES (@Nome, @Cpf, @Endereco, @Bairro, @Cep, @Email)";
+
+            MySqlCommand cmd = new MySqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@Nome", nome);
+            cmd.Parameters.AddWithValue("@Cpf", cpf);
+            cmd.Parameters.AddWithValue("@Endereco", endereco);
+            cmd.Parameters.AddWithValue("@Bairro", bairro);
+            cmd.Parameters.AddWithValue("@Cep", cep);
+            cmd.Parameters.AddWithValue("@Email", email);
+
+            cmd.ExecuteNonQuery();
+        }
+
+        DatabaseManager databaseManager = new DatabaseManager();
         private void btnNovo_Click(object sender, EventArgs e)
         {
-            btnAtualizar.Enabled = false;
-            btnExcluir.Enabled = false;
-            btnPesquisar.Enabled = false;
-            btnCadastrar.Enabled = true;
-            btnAtualizar.Enabled = true;
-            btnExcluir.Enabled = true;
-            btnPesquisar.Enabled = true;
-            btnCadastrar.Enabled = false;
-
-            txtCodigo.Enabled = true;
-            txtemail1.Enabled = true;
-            maskCPF.Enabled = true;
-            txtEndereco.Enabled = true;
-            txtBairro.Enabled = true;
-            maskCep.Enabled = true;
+            btnPesquisar.Enabled = btnExcluir.Enabled = btnAtualizar.Enabled = false;
+            lblModo.Text = "Modo Cadastro";
+            databaseManager.InsertConvidado(txtNome.Text, maskCPF.Text, txtEndereco.Text, txtBairro.Text, maskCep.Text, txtemail1.Text);
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
